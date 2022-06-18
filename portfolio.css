@@ -1,315 +1,246 @@
-body{
-    background-color: rgb(30, 30, 36);
-    color: #c8c9c1;
-    padding: 0;
-    margin: 0;
-    font-family:sans-serif;
-}
-#main-header{
-    height: 60px;
-    border-bottom: 5px #730505 solid;
-    background: #09030a;
-}
-.container{
-    width: 90%;
-    overflow: hidden;
-    margin: auto; 
-    height: auto;
-}
-.child{
-    animation-duration: 3s;
-    animation-iteration-count: initial;   
-}
-.info:hover {
-    animation-name: bounce;
-    animation-timing-function: ease;
-}
-@keyframes bounce {
-  0%   { transform: translateY(0); }
-  25%  { transform: translateY(-30px) }
-  50%  { transform: translateY(20px); }
-  100% { transform: translateY(0); }
-}
-.container .imgMuseum img{
-    margin-top: 4em;
-    height: 400px;
-    width: 360px;
-    border: 2px #f4f4f4 solid;
-    float: left;
-    border-radius: 2em;
-}
-.info{
-    width: 48%;
-    margin-top: 10em;
-    margin-left: 25em;
-    border-radius: 5px;
-    border-top-left-radius: 1em;
-    line-height: 16px;
-}
-.info h2{
-    font-size: 3em;
-}
-.imgMuseum img {
-	filter: blur(3px);
-	transition: .6s ease-in-out;
-}
-.imgMuseum img:hover {
-	filter: blur(0);
-}
-.navigation{
-    background: #09030a;
-    width: 40%;
-    margin-top: 8px;
-    margin-left: 24em;
-    border-end-end-radius: 3em;
-}
-.navigation ul{
-    padding: 0;
-    margin: 0;
-}
-.navigation li{
-    display: inline;
-    list-style: none;
-    margin-left: 20px;
-}
-.navigation a{
-    text-decoration: none;
-    color: #f4f4f4;
-    font-size: 10px;
-    font-weight: bold;
-}
-.socials{
-    margin-left: 24em;
-    margin-top: 1em;
-}
-.socials ul{
-    padding: 0;
-    margin: 0;   
-}
-.socials li{
-    font-size: 25px;
-    margin-left: 20px;
-}
-.socials a{
-    text-decoration: none;
-    color: silver;
-}
-.grow {
-    transition: all .2s ease-in-out;
-}
-.grow:hover {
-    transform: scale(1.5);
-}
-.navigation a:hover{
-    color: #f05656;
-}
-.socials a:nth-child(1):hover{
-    color: #5a35f0;
-}
-.socials a:nth-child(2):hover{
-    color: red;
-}
-.socials a:nth-child(3):hover{
-    color: yellow;
-}
+
+
 /*aboutme page*/
-.nav1{
+.nav1 {
     width: 20em;
     float: left;
 }
-.nav2{ 
-    
+
+.nav2 {
+
     width: 35em;
     float: right;
 }
-.nav2 ul{
+
+.nav2 ul {
     margin-top: 20px;
 }
-.nav2 li{
+
+.nav2 li {
     display: inline-block;
     margin-left: 2.6em;
 }
-.nav2 a{
+
+.nav2 a {
     text-decoration: none;
     color: #f4f4f4;
 }
-.nav2 a:hover{
+
+.nav2 a:hover {
     color: #f05656;
 }
-.profile img{
+
+.profile img {
     margin-top: 4.5em;
     height: 450px;
     width: 400px;
     float: left;
-    border:black 2px solid;
+    border: black 2px solid;
     border-radius: 20px;
 }
+
 .profile img {
-	filter: grayscale();
-	transition: 1.5s ease-in-out;
+    filter: grayscale();
+    transition: 1.5s ease-in-out;
 }
+
 .profile img:hover {
-	filter: grayscale(0);
+    filter: grayscale(0);
 }
-.info2{
+
+.info2 {
     width: 50%;
     margin-left: 30em;
     margin-top: 6em;
     border: #ba1414 2px solid;
     border-radius: 2em;
 }
-.info2 h4{
+
+.info2 h4 {
     margin-left: 1em;
 }
-#profiles span{
-    font-family:cursive;
+
+#profiles span {
+    font-family: cursive;
 }
-.info2:hover{
-    background: linear-gradient(0deg , #4a0a0a ,white);
+
+.info2:hover {
+    background: linear-gradient(0deg, #4a0a0a, white);
     color: black;
 }
-.bio{
+
+.bio {
     width: 55%;
     margin-left: 30em;
     margin-top: 2em;
 }
-.bio:hover{
+
+.bio:hover {
     color: white;
 }
-.bio p{
+
+.bio p {
     font-size: 20px;
     font-stretch: condensed;
 }
+
 /* skills page */
-#content{
-    padding: 0;
-    margin: 0;
-}
-.skill li{
+
+.skill li {
     list-style: none;
     margin: 20px 0;
     padding: 10px;
 
 }
-.skill h1{
+
+.skill h1 {
     text-align: center;
 }
-.skill{
+
+.skill {
     width: 500px;
     margin: 60px auto;
     color: #fff;
     padding: 20px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 25), 0 10px 10px rgba(0, 0, 0, 22);
 }
-.bar{
+
+.bar {
     background: #353b48;
     display: block;
     height: 20px;
     border: 1px solid rgba(0, 0, 0, 3);
     border-radius: 10px;
-    overflow:hidden;
+    overflow: hidden;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 12), 0 1px 2px rgba(0, 0, 0, 24);
     transition: all 0.3s cubic-bezier(0.25, 8, 0.35, 1);
 }
-.bar:hover{
+
+.bar:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 25), 0 10px 10px rgba(0, 0, 0, 22);
 }
-.bar span{
+
+.bar span {
     height: 20px;
     float: left;
-    background: linear-gradient(135deg, rgba(236,0, 140,1)0%, rgba(252, 103,103,1)100%);
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
 }
-.c{
+
+.c {
     width: 60%;
     animation: c 3s;
 }
-.cplus{
+
+.cplus {
     width: 25%;
     animation: cplus 3s;
 }
-.html{
+
+.html {
     width: 70%;
     animation: html 3s;
 }
-.css{
+
+.css {
     width: 70%;
     animation: css 3s;
 }
-.java{
+
+.java {
     width: 15%;
     animation: java 3s;
 }
-@keyframes c{
-    0%{
+
+@keyframes c {
+    0% {
         width: 0%;
-    }100%{
+    }
+
+    100% {
         width: 60%;
     }
 }
-@keyframes cplus{
-    0%{
+
+@keyframes cplus {
+    0% {
         width: 0%;
-    }100%{
+    }
+
+    100% {
         width: 25%;
     }
 }
-@keyframes html{
-    0%{
+
+@keyframes html {
+    0% {
         width: 0%;
-    }100%{
+    }
+
+    100% {
         width: 70%;
     }
 }
-@keyframes css{
-    0%{
+
+@keyframes css {
+    0% {
         width: 0%;
-    }100%{
+    }
+
+    100% {
         width: 70%;
     }
 }
-@keyframes java{
-    0%{
+
+@keyframes java {
+    0% {
         width: 0%;
-    }100%{
+    }
+
+    100% {
         width: 15%;
     }
 }
+
 /* Projects page */
-.projects{
+.projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-.post{
+
+.post {
     text-align: center;
     margin-top: 5rem;
 }
-.gifs img{
+
+.gifs img {
     height: 300px;
-    width: 300px;;
+    width: 300px;
+    ;
     margin-left: 1em;
 }
+
 /* Contact Me Page */
-.container2{
+.container2 {
     width: 71%;
     margin: auto;
 }
-#content1{
+
+#content1 {
     width: 55%;
     margin: auto;
 }
-footer{
+
+/* footer{
     position: absolute;
     bottom: 0;
+    height: 40px;
     color: silver;
     width: 100%;
     background: #302b2b;
 }
 footer p{
     text-align: center;
-}
-
-
-
+} */
